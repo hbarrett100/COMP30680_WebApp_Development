@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-bottom: 30px;
+}
+
+/* ============= NAV BAR ============= */
+
+nav {
+    width: 100%;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #b1effc;
+    padding: 5px 0px 5px 60px;
+    border-radius: 3px;
+}
+
+nav li {
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    padding: 7px 10px 5px;
+    color: dimgray;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+
+nav li a:hover {
+    color: black;
+    background-color: #3daed1;
+}
+
+/* ============= TABLES ============= */
+
+th {
+    background-color: #3daed1;
+}
+
+td {
+    padding: 3px 4px;
+}
+
+th,
+td {
+    border: 1px solid black;
+
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 15px;
+}
+
+
+#orders {
+    display: table;
+    clear: both;
+    width: 90%;
+    margin: 10px 20px;
+}
+
+#order-table-div {
+    float: left;
+}
+
+#order-table-div tr:hover,
+#index-table tr:hover {
+    background-color: #b1effc;
+    cursor: pointer;
+}
+
+#order-info {
+    float: left;
+    width: 70%;
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+#order-info-table {
+    float: left;
+}
+
+#cust-table,
+#index-table,
+#product-table {
+    margin: 15px 50px;
+}
+
+/* The following sticks the footer to the bottom of the page
+Adapted from https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+footer {
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b1effc;
+    text-align: center;
+}
+
+footer p {
+    margin: 4px;
+}
