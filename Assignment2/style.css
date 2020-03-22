@@ -1,0 +1,103 @@
+  #container {
+      width: 90%;
+      background-color: white;
+      text-align: center;
+      margin: auto;
+  }
+
+  #header {
+      text-align: center;
+      color: #993738;
+      padding-top: 20px;
+      font-size: 1.6em;
+  }
+
+  #radioButtons {
+      display: none;
+  }
+
+
+  #moreInfo {
+      display: none;
+      margin-left: 5%;
+      border: 1px solid grey;
+      width: 30%;
+      padding: 10px;
+      font-size: 1em;
+      line-height: 1.5em;
+      text-align: left;
+  }
+
+  #intro {
+      color: black;
+      font-size: 1.4em;
+
+  }
+
+
+  table {
+      border: 1px solid grey;
+      border-collapse: collapse;
+      padding: 5px;
+      width: 95%;
+      margin: auto;
+  }
+
+  th {
+      background-color: rgb(160, 82, 45);
+      color: white;
+      height: 35px;
+      font-size: 1em;
+  }
+
+  table tr:nth-child(odd) {
+      background-color: #f1f1f1;
+  }
+
+  table tr:nth-child(even) {
+      background-color: #ffffff;
+  }
+
+  #dropdown {
+      width: 90%;
+      margin: auto;
+      font-size: 1em;
+      position: relative;
+      margin-bottom: 20px;
+  }
+
+  select {
+
+      border: 1px solid black;
+      color: black;
+      font-size: 1em;
+      padding: 2px 10px;
+      width: 150px;
+      overflow: hidden;
+      height: 30px;
+  }
+
+
+  #radioButtons {
+      padding: 10px;
+      font-size: 1.2em;
+      margin-bottom: 30px;
+  }
+
+  #button {
+      background-color: rgba(160, 82, 45, 0.5);
+      border: 1px solid grey;
+      color: black;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 0.9em;
+      border-radius: 3px;
+      margin-left: 25px;
+
+  }
+
+  #error {
+      display: none;
+  }

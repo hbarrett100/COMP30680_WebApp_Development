@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="nobels.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>The Nobel Prize</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+            <h1 id="big_title">The Nobel Prize</h1>
+            <h2 id="yearTitle">1970-2018</h2>
+        </div>
+
+        <div id="intro">
+            <p>Welcome to the Nobel Prize Winners. Please choose a range of years to begin your search.</p>
+        </div>
+
+
+        <!--dropdowns to select range of years and category-->
+        <div id="dropdown">
+            Year From:
+            <select id="start" name="start"></select>
+            Year to:
+            <select id="end" name="end"></select>
+            Category:
+            <select id="category" name="category"></select>
+            <!--
+            
+            submit button will call function to show table of results
+-->
+
+            <button type="button" id="button" onclick="errorCheck()"> Submit</button> <br>
+        </div>
+
+        <!--
+        
+        div created for error handling - error comment may show depending on dropdown selection
+-->
+        <div id="error"></div>
+
+        <!--        radio buttons for filtering of gender for part 2 of assignment-->
+
+        <div id="radioButtons">
+
+            <input type="radio" name="gender" value="all" onclick="filterGender()" id="all" checked> All Winners
+            <input type="radio" name="gender" value="male" onclick="filterGender()"> Male
+            <input type="radio" name="gender" value="female" onclick="filterGender()"> Female
+            <input type="radio" name="gender" value="org" onclick="filterGender()"> Organisation
+
+            <!--            organisation button added for extra filtering options. Not a requirement for assignment. -->
+
+        </div>
+
+        <div>
+            <p id="moreInfo"></p>
+        </div>
+
+        <div id="table"></div>
+
+    </div>
+
+</body>
+
+</html>
